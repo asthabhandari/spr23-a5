@@ -1,5 +1,4 @@
 CC = gcc
-CFLAGS = -Wall -Werror 
 
 SRCS = main.c addition.c subtraction.c multiplication.c division.c
 objects = $(SRCS: .c =.o)
