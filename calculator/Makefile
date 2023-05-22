@@ -1,4 +1,3 @@
-CFLAGS = -Wall -Werror -g
 objects = main.o addition.o subtraction.o multiplication.o division.o
 
 .PHONY: all clean 
