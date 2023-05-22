@@ -1,5 +1,9 @@
 objects = main.o addition.o subtraction.o multiplication.o division.o
 
+.PHONY: all clean 
+
+all: calculator 
+
 calculator: $(objects)
 	$(CC) $(CFLAGS) -o $@ $^
 
